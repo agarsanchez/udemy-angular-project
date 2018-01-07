@@ -1,5 +1,6 @@
 import {Component} from '@angular/core';
 import {Page} from './shared/navigation.pages';
+import {Recipe} from './recipes/recipe.model';
 
 @Component({
   selector: 'app-root',
