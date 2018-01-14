@@ -9,4 +9,10 @@
       <app-shopping-list *ngIf="pageIs(pages.SHOPPLING_LIST)"></app-shopping-list>
     </div>
   </div>
+  <p appBasicHighlight>Style me with basic highlight</p>
+  <p appBetterHighlight
+     [defaultColor]="'transparent'"
+     highlightColor="yellow">
+    <!--we can do this, but be careful not to override any element property-->
+    Style me with better highlight</p>
 </div>
