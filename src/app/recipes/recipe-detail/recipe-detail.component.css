@@ -1,0 +1,4 @@
+.dropdown-toggle.open + .dropdown-menu {
+  display: initial;
+  cursor: pointer;
+}

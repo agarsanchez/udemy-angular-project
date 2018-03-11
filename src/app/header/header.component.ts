@@ -1,5 +1,4 @@
-import {Component, EventEmitter, Output} from '@angular/core';
-import {Page} from '../shared/navigation.pages';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -8,11 +7,4 @@ import {Page} from '../shared/navigation.pages';
 
 export class HeaderComponent {
 
-  @Output() navigationSelected = new EventEmitter<{ page: Page }>();
-
-  pages = Page;
-
-  navigateTo(page: Page) {
-    this.navigationSelected.emit({page: page});
-  }
 }
